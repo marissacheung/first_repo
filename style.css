@@ -1,0 +1,68 @@
+header {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 20px;
+}
+
+.box {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.inner-header {
+  max-width: 68%;
+}
+
+header h1 {
+  font-size: 4em;
+  text-align: center;
+  padding-left: 20px;
+}
+
+article {
+  margin-top: 50px;
+  background-color: white;
+}
+article p {
+  color: grey;
+}
+
+aside {
+  float:right;
+}
+
+aside p {
+  text-align: center;
+  color: white;
+}
+
+p.color {
+  border-radius: 10%;
+  padding: 5px; 
+  background-color: paleturquoise;
+  box-shadow: 2px 2px 2px #666;
+}
+
+ 
+ol {
+  color: #ccc;
+  list-style-type: none;
+}
+ 
+ol li {
+  position: relative;
+  font: bold italic 30px Helvetica, Verdana, sans-serif;
+  margin-bottom: 20px;
+}
+ 
+li p {
+  font: 12px/1.5 Helvetica, sans-serif;
+  padding-left: 40px;
+  color: #555;
+  text-align: left;
+  padding-top: 8px;
+}
+ 
+aside span {
+  position: absolute;
+}

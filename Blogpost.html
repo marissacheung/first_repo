@@ -2,14 +2,15 @@
 <html>
 <head>
   <link rel="stylesheet" href="http://lighthouse.jquerycentral.com/css/blog-grey.css">
+  <link rel="stylesheet" href="style.css">
   <title></title>
 </head>
 <body>
   <header>
-  <h1>My Blog</h1>
-  <img src="donut.png">
+    <div class="box"><img src="donut.png"></div>
+    <div class="box"><h1>My Blog</h1></div>
   </header>
-  <section>
+  <section class="inner-header">
     <header>
       <h2>I built a webpage</h2>
       <h3>Jan 19, 2015</h3>
@@ -21,8 +22,23 @@
     </header>
   </section>
   <aside>
-    <section><h4>Widget</h4></section>
-    <section><h4>Widget</h4></section>
+    <section>
+      <h4>My Pet</h4>
+      <p class="pudding">Pudding, the bunny</p>
+    </section>
+    <section>
+      <h4>Favorite Color</h4>
+      <p class="color">Sky Blue</p>
+    </section>
+    <section>
+      <h4>Bucket List</h4>
+          <ol>
+            <li><span class="list">1.</span><p>Timothy Hay</p></li>
+            <li><span class="list">2.</span><p>Bunny pellets</p></li>
+            <li><span class="list">3.</span><p>Fresh bunny-safe veggies</p></li>
+            <li><span class="list">4.</span><p>Water</p></li>
+          </ol> 
+    </section>
   </aside>
 </body>
 </html>
