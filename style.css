@@ -19,6 +19,10 @@ header h1 {
   padding-left: 20px;
 }
 
+h2 {
+  padding: 5px;
+}
+
 article {
   margin-top: 50px;
   background-color: white;
